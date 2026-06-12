@@ -14,6 +14,8 @@
     <PackageVersion Include="Aspire.Hosting.Keycloak" Version="$(AspireVersion)$(AspirePreviewSuffix)" />
     <PackageVersion Include="Aspire.Keycloak.Authentication" Version="$(AspireVersion)$(AspirePreviewSuffix)" />
     <PackageVersion Include="Aspire.Hosting.JavaScript" Version="$(AspireVersion)" />
+    <!-- Aspire.Hosting.Go doesn't currently ship a stable package. -->
+    <PackageVersion Include="Aspire.Hosting.Go" Version="$(AspireVersion)$(AspirePreviewSuffix)" />
     <PackageVersion Include="Aspire.Hosting.Integration.Analyzers" Version="$(AspireVersion)$(AspirePreviewSuffix)" />
     <PackageVersion Include="Aspire.Hosting.PostgreSQL" Version="$(AspireVersion)" />
     <PackageVersion Include="Aspire.Hosting.Python" Version="$(AspireVersion)" />

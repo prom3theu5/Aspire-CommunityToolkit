@@ -1,0 +1,11 @@
+{
+  "name": "mise-jsapp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "left-pad": "^1.3.0"
+  }
+}

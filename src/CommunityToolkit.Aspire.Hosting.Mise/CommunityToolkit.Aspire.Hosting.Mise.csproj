@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AdditionalPackageTags>hosting mise mise-en-place tools environment versioning polyglot</AdditionalPackageTags>
+    <Description>An Aspire hosting integration for mise (mise-en-place). Installs the dev tools declared in mise.toml before resources start and injects mise-managed environments into resources.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="$(SharedDir)\PathNormalizer.cs" Link="Utils\PathNormalizer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="CommunityToolkit.Aspire.Hosting.Mise.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting" />
+  </ItemGroup>
+
+</Project>

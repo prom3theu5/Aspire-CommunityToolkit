@@ -1,0 +1,11 @@
+[tools]
+node = "22"
+go = "1.24"
+dotnet = "10"
+
+[env]
+GREETING = "Hello from mise!"
+
+[tasks.show-versions]
+run = "node --version && go version && dotnet --version"
+description = "Print the mise-managed tool versions"

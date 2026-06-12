@@ -1,0 +1,6 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../../examples/mise/CommunityToolkit.Aspire.Hosting.Mise.AppHost/CommunityToolkit.Aspire.Hosting.Mise.AppHost.csproj" />
+    <ProjectReference Include="../CommunityToolkit.Aspire.Testing/CommunityToolkit.Aspire.Testing.csproj" />
+  </ItemGroup>
+</Project>
